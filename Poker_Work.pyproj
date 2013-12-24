@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83838f9f-bb43-4779-9d05-acaa91cf1de9}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Poker_Startup.py</StartupFile>
+    <SearchPath>PyPy\</SearchPath>
+    <WorkingDirectory>
+    </WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="10Clubs.png" />
+    <Content Include="10Diamonds.png" />
+    <Content Include="10Hearts.png" />
+    <Content Include="10Spades.png" />
+    <Content Include="11Clubs.png" />
+    <Content Include="11Diamonds.png" />
+    <Content Include="11Hearts.png" />
+    <Content Include="11Spades.png" />
+    <Content Include="12Clubs.png" />
+    <Content Include="12Diamonds.png" />
+    <Content Include="12Hearts.png" />
+    <Content Include="12Spades.png" />
+    <Content Include="13Clubs.png" />
+    <Content Include="13Diamonds.png" />
+    <Content Include="13Hearts.png" />
+    <Content Include="13Spades.png" />
+    <Content Include="14Clubs.png" />
+    <Content Include="14Diamonds.png" />
+    <Content Include="14Hearts.png" />
+    <Content Include="14Spades.png" />
+    <Content Include="2Clubs.png" />
+    <Content Include="2Diamonds.png" />
+    <Content Include="2Hearts.png" />
+    <Content Include="2Spades.png" />
+    <Content Include="3Clubs.png" />
+    <Content Include="3Diamonds.png" />
+    <Content Include="3Hearts.png" />
+    <Content Include="3Spades.png" />
+    <Content Include="4Clubs.png" />
+    <Content Include="4Diamonds.png" />
+    <Content Include="4Hearts.png" />
+    <Content Include="4Spades.png" />
+    <Content Include="5Clubs.png" />
+    <Content Include="5Diamonds.png" />
+    <Content Include="5Hearts.png" />
+    <Content Include="5Spades.png" />
+    <Content Include="6Clubs.png" />
+    <Content Include="6Diamonds.png" />
+    <Content Include="6Hearts.png" />
+    <Content Include="6Spades.png" />
+    <Content Include="7Clubs.png" />
+    <Content Include="7Diamonds.png" />
+    <Content Include="7Hearts.png" />
+    <Content Include="7Spades.png" />
+    <Content Include="8Clubs.png" />
+    <Content Include="8Diamonds.png" />
+    <Content Include="8Hearts.png" />
+    <Content Include="8Spades.png" />
+    <Content Include="9Clubs.png" />
+    <Content Include="9Diamonds.png" />
+    <Content Include="9Hearts.png" />
+    <Content Include="9Spades.png" />
+    <Content Include="b2fh.png" />
+    <Content Include="b2fv.png" />
+    <Content Include="b2pb.png" />
+    <Content Include="b2pl.png" />
+    <Content Include="b2pr.png" />
+    <Content Include="b2pt.png" />
+    <Content Include="redbaize.jpg" />
+    <Compile Include="Poker_Startup.py" />
+    <Compile Include="Poker_Work.py" />
+    <Compile Include="PyPy\cfg.py" />
+    <Compile Include="MyPy\handlers.py" />
+    <Compile Include="MyPy\handTypes.py" />
+    <Compile Include="PyPy\handTypes_v1.0.py" />
+    <Compile Include="PyPy\handTypes_v1.py" />
+    <Compile Include="MyPy\phases.py" />
+    <Compile Include="MyPy\useful.py" />
+    <Compile Include="PyPy\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MyPy\" />
+    <Folder Include="PyPy" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
